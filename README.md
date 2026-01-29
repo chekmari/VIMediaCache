@@ -10,6 +10,19 @@ VIMediaCache use AVAssetResourceLoader to control AVPlayer download media data.
 
 `pod 'VIMediaCache'`
 
+### Swift Package Manager
+
+Add the package dependency:
+
+```Swift
+// Package.swift
+.package(url: "https://github.com/chekmari/VIMediaCache.git", from: "0.4")
+```
+
+Then add `VIMediaCache` to your target dependencies.
+
+You can also add it in Xcode via **File > Add Packages...** and paste the repository URL.
+
 ### Usage
 
 **Objective C**
